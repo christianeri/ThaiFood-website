@@ -1,0 +1,7 @@
+{
+    "textmarker.useHighlightColorOnRuler": false,
+    "textmarker.highlightColors": [
+        "lavender"
+    ],
+    "textmarker.defaultHighlightColor": "lavender"
+}

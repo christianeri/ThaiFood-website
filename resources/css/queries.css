@@ -1,0 +1,254 @@
+/* From big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+    
+    section { padding: 20px 10px;}
+
+    body {
+        font-size: 16px;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .hero-text-box {
+        font-size: 75%;
+        width: 90%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+}
+
+/* Small to big tablet from 768-1023px */
+@media only screen and (max-width: 1023px) {
+
+    body {
+         font-size: 16px;
+    }
+   
+    .hero-text-box {
+        width: 90%;
+        top: 20%;
+        left: 5%;
+        transform: translate(0%, 0%);
+    }
+
+    h1 { font-size: 290%; }
+    h3 { font-size: 100% }
+    .hero-text { font-size: 190%; }
+    
+    .long-text {
+        font-size: 100%;
+    }
+
+    .long-copy {
+        width: 90%;
+        margin: auto;
+    }
+
+    .price {
+        height: 25px; 
+        margin-bottom: 5px;
+        font-size: 90%;
+    }
+
+    .box p {
+        text-align: start;
+        height: 110px;
+        font-size: 90%;
+    }
+
+    .map-box {
+        margin: 0% 0% 0% 10%;
+        border-radius: 10px;
+    }
+
+    .contact-form { width: 80%; }
+}
+
+/* Smaller Phones and smaller tablets from 481-767px */
+@media only screen and (max-width: 767px) {
+
+    section { padding: 10px 5px;}
+
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        height: 110vh;
+    }
+
+    .hero-text-box {
+        margin-top: 120px;
+        width: 90%;
+        top: 10%;
+        left: 5%;
+    }
+
+    .row,
+    .hero-text-box { 
+        padding: 0 4%
+    }
+
+    .cite { padding: 4% }
+
+    h1 { font-size: 300%; }
+    h3 { font-size: 125% }
+
+    .hero-text { 
+        font-size: 170%; 
+        line-height: 145%;
+    }
+
+    .hero-long-copy {
+        font-size: 110%;
+    }
+
+    .section-lunch {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+
+    .lunch-box p {
+        font-size: 90%;
+    }
+
+    .dagens-lunch div {
+        color: #C22A36;
+        border: 2px solid #C22A36;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        /* display: inline-block;*/
+        text-align: center;
+        padding: 5px;
+        float: left;
+        font-size: 125%;
+    }
+    
+    .dagens-lunch p {
+        height: 50px;
+        text-align: start;
+    }
+
+    .box p {
+    text-align: start;
+    height: 110px;
+    font-size: 110%;
+    }
+
+    .price {
+        margin-bottom: 30px;
+        font-size: 125%;
+    }
+
+    .rice-box {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .mobile-nav-icon i {
+        color: #fff;
+    }
+
+    .full-row {
+        height: 100px;
+        background-color: transparent;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-nav {
+        float: left;
+        margin: 25px 0 0 40px;
+        padding: 10px 20px 10px 20px;
+        font-size: 125%;
+        color: rgba(0, 0, 0, 0.4);
+        background-color: #fff;
+        border: 1px solid;
+        border-radius: 10px;
+        box-shadow: 10px 10px;
+    }
+
+    .main-nav li {
+        display: block;
+        margin-left: 0;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .sticky .full-row {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .sticky .main-nav {
+        float: left;
+        margin: 25px 0 0 40px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        color: #444; 
+    }
+    
+    .sticky .logo { display: none; }
+    .sticky .logo-float { display: none; }
+
+
+    .col {
+        width: 100%;
+        /* How to fix vertically misaligned divs */
+        margin: 0 0 4% 0%;
+    }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .box-quote p{
+        height: 50px;
+    }
+
+    .map-box {
+        margin: 0% 0% 0% 0%;
+        border-radius: 10px;
+    }
+}
+
+/* Small Phones from 0-480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 20px 0}
+    .contact-form { width: 100% }
+    h2 { font-size: 28px }
+
+}
+
+/*
+
+
+*/
